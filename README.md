@@ -1,6 +1,7 @@
 # HexSoftwares_Face-Detecton
 # Face Detection Using OpenCV in Python
 Demo vedio link:https://drive.google.com/file/d/1c45pwuytLz7c-pq9RBgDETEFPCyc5TRP/view?usp=drivesdk
+
 Face Detection using OpenCV
 
 This project implements Face Detection on both images and real-time video streams using OpenCV’s Deep Neural Network (DNN) module and a pre-trained Caffe deep learning model.
@@ -60,24 +61,31 @@ Place both files in the project directory.
 
 🚀 Usage
 1️⃣ Detect Faces in an Image
-python detect_faces.py \
+  python detect_faces.py \
   --image sample1.jpg \
   --prototxt deploy.prototxt \
   --model res10_300x300_ssd_iter_140000.caffemodel
 
 2️⃣ Real-Time Face Detection (Webcam)
-python detect_faces_video.py \
+  python detect_faces_video.py \
   --prototxt deploy.prototxt \
   --model res10_300x300_ssd_iter_140000.caffemodel
 
 📂 Project Structure
 face-detection-opencv/
+
 │
+
 ├── detect_faces.py              # Image-based face detection
+
 ├── detect_faces_video.py        # Real-time face detection via webcam
+
 ├── deploy.prototxt              # Model architecture
+
 ├── res10_300x300_ssd_iter_140000.caffemodel  # Pre-trained model
+
 ├── requirements.txt             # Project dependencies
+
 └── sample1.jpg                  # Example input image
 
 💡 Applications
