@@ -30,7 +30,6 @@ Imutils
 
 1.Clone the Repository
 
-git clone https://github.com/your-username/face-detection-opencv.git
 cd face-detection-opencv
 
 
@@ -76,7 +75,6 @@ Place both files in the project directory.
 📂 Project Structure
 face-detection-opencv/
 
-│
 ├── detect_faces.py              # Image-based face detection
 
 ├── detect_faces_video.py        # Real-time face detection via webcam
