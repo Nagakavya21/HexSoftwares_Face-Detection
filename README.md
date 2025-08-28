@@ -97,5 +97,6 @@ face-detection-opencv/
 
 🤖 Human-Computer Interaction (HCI)
 
-<img width="111" height="111" alt="image" src="https://github.com/user-attachments/assets/bd0e158d-9329-4230-8b1c-4197d1d03db0" />
+<img width="1436" height="1020" alt="image" src="https://github.com/user-attachments/assets/39d6cdfc-1c75-49e3-bc43-6e3bd5e593b6" />
+
 
